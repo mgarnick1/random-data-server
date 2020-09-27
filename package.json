@@ -1,0 +1,23 @@
+{
+  "name": "random-data-server",
+  "version": "1.0.0",
+  "description": "a randome sample of data.",
+  "main": "index.js",
+  "author": "Mark Garnick",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "eslint": "^5.15.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }, 
+  "devDependencies": {
+    "eslint-config-airbnb-base": "13.0.0",
+    "eslint-plugin-import": "2.13.0"
+  }
+}
